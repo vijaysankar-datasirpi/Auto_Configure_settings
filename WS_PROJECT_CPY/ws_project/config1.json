@@ -1,0 +1,55 @@
+{
+    "name": "notification-service",
+    "profiles": [
+        "default"
+    ],
+    "label": null,
+    "version": null,
+    "state": null,
+    "propertySources": [
+        {
+            "name": "vault:playbook-service",
+            "source": {
+                "spring.datasource.password": "",
+                "spring.datasource.url": "",
+                "spring.datasource.username": "",
+                "spring.kafka.bootstrap-servers": "",
+                "spring.mail.host": "",
+                "spring.mail.password": "",
+                "spring.mail.port": "",
+                "spring.mail.username": ""
+            }
+        },
+        {
+            "name": "",
+            "source": {
+                "server.port": 8083,
+                "app.swagger.serverUrl": "",
+                "app.auth-server.url": "",
+                "app.auth-server.realm": "",
+                "app.mail.from": "",
+                "app.soc.from": "",
+                "app.allowedOrigins": "",
+                "spring.kafka.consumer.group-id": "",
+                "spring.kafka.consumer.auto-offset-reset": "",
+                "spring.kafka.consumer.key-deserializer": "",
+                "spring.kafka.consumer.value-deserializer": "",
+                "spring.kafka.consumer.properties.spring.json.type.mapping": "",
+                "spring.datasource.driverClassName": "",
+                "spring.jpa.show-sql": false,
+                "spring.jpa.hibernate.ddl-auto": "",
+                "spring.jpa.properties.hibernate.jdbc.time_zone": "",
+                "spring.jpa.properties.hibernate.dialect": "",
+                "spring.mail.protocol": "",
+                "spring.mail.properties.mail.smtp.auth": true,
+                "spring.mail.properties.mail.smtp.starttls.enable": true,
+                "spring.mail.properties.mail.smtp.connectiontimeout": 5000,
+                "spring.mail.properties.mail.smtp.timeout": 5000,
+                "spring.mail.properties.mail.smtp.writetimeout": 5000,
+                "springdoc.swagger-ui.config-url": "",
+                "springdoc.swagger-ui.url": "",
+                "springdoc.swagger-ui.enabled": true
+            }
+        }
+    ]
+}

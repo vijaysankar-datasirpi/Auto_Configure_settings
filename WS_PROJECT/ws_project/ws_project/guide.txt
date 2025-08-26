@@ -1,0 +1,3 @@
+ws project copy has the view, which returns json response data, so run server 8001
+ws project is the one requesting for config, so run with daphne ws_project.asgi:application
+running daphne server in the copy will directly run the websocket
